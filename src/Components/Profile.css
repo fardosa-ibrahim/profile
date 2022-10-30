@@ -1,0 +1,38 @@
+
+.image{
+   margin-left: 40%;
+   margin-top: 30px;
+}
+.name{
+    margin-left: 43.5%;
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .image, .name, .buttons {
+    width: 80%;
+    /* height: 320px; */
+  }
+ }
+
+.buttons a{
+    text-decoration: none;
+}
+
+.buttons button {
+    background-color: #EAECF0; 
+    border: 1px solid #dae1ed; 
+    color: black; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    width: 80%; 
+    display: block; 
+    margin-left: 90px;
+    margin-top: 20px;
+
+  }
+  .buttons button:not(:last-child) {
+    border-bottom: 3px; 
+  }
+  
+  .buttons button:hover {
+    background-color: #c6d2ea;
+  }
